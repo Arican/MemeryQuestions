@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/selectOne"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="单选题" />
+
+    <item
+        android:id="@+id/selectMul"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="多选题" />
+
+    <item
+        android:id="@+id/judge"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="判断题" />
+
+</menu>

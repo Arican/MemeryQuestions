@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chooseQuestion"
+        android:title="->选择题库" />
+
+    <item
+        android:id="@+id/inportQuestion"
+        android:title="->导入题库" />
+
+    <item
+        android:id="@+id/creat100Question"
+        android:title="->生成100道题<-" />
+
+    <!--<item-->
+        <!--android:id="@+id/judge"-->
+        <!--android:title="混合题目生成" />-->
+
+    <item
+        android:id="@+id/radom"
+        android:title="->随机测验<-" />
+
+</menu>

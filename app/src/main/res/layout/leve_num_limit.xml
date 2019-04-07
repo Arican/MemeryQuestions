@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="当前题目最低难度限制："/>
+    <TextView
+        android:id="@+id/limit_number"
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <!--<requestFocus />-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <Button
+            android:id="@+id/limit_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="难度+1"/>
+        <Button
+            android:id="@+id/limit_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="难度-1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="题目难度在每次验证答案错误时 +1 ，回答正确并切换到下一题时 -1 ，难度最低值为0。答题时，难度最低只能减到1。"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="难度设置过高，可能会导致没有相应难度的题目，会提示题库为空。"/>
+</LinearLayout>

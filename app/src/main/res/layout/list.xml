@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="试题列表"
+        android:textSize="11pt" />
+
+    <!--<ListView-->
+        <!--android:id="@+id/lv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/pnlContent"></ListView>-->
+
+
+    <TableLayout
+        android:id="@+id/pnlContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></TableLayout>
+
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="导入试题"></Button>
+</LinearLayout>
